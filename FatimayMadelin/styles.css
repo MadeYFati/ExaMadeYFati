@@ -1,0 +1,41 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	background-image: linear-gradient(180deg, rgb(14, 167, 238), rgb(208, 234, 238));
+	color: black;
+	line-height: 1.6em;
+}
+
+p{
+	margin-bottom: 1.5em;
+}
+
+.conteiner{
+	width: 85%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.menu {
+	list-style-type: none;
+	padding: 0;
+	background: #092327;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+}
+.menu li a:hover {
+	background: #ef8354;
+}
+
